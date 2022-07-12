@@ -2,7 +2,7 @@
 .vscode/
 node_modules/
 build/
-temp/
+tmp/
 .env
 coverage
 ormconfig.json
@@ -10,3 +10,4 @@ dist
 
 uploads/*
 !uploads/.gitkeep
+.DS_Store
