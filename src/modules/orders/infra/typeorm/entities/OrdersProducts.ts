@@ -1,4 +1,3 @@
-import Product from '../../../../products/infra/typeorm/entities/Product';
 import {
   Column,
   CreateDateColumn,
@@ -9,6 +8,7 @@ import {
   UpdateDateColumn,
 } from 'typeorm';
 import Order from './Order';
+import Product from '../../../../products/infra/typeorm/entities/Product';
 
 @Entity('orders_products')
 class OrderProducts {
